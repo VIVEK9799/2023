@@ -483,6 +483,9 @@ li.menuurl:hover {
   #hero1 {
     text-align: center;
     padding-top: 58px;
+	padding-top: 50px !important;
+    margin-bottom: 50px !important;
+    height: 60vh !important;
   }
   #hero1 h1 {
     font-size: 28px;
@@ -2202,12 +2205,7 @@ section {
 	.tdhide {
 	display: none;
     }
-    section#hero1 {
-    padding-top: 50px !important;
-    margin-bottom: 50px !important;
-    height: 60vh !important;
-    
-} 
+     
 }
 h1.logo.me-auto {
     font-size: 1.2rem !important;
