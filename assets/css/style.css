@@ -2197,7 +2197,7 @@ section {
     width: 100px;
 	}
 	#header .logo img {
-    max-width: 136px !important;
+    max-width: 200px !important;
 	}
 	.tdhide {
 	display: none;
@@ -2246,3 +2246,6 @@ h1.logo.me-auto {
     color: #607d8b;
 }
 
+.col-lg-4.col-md-6.d-flex.align-items-stretch.aos-init.aos-animate {
+    justify-content: center;
+}
