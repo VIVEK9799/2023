@@ -2194,7 +2194,9 @@ section {
     color: black !important;
 	}
     .abouttab {
-		padding-top: 55px !important;
+	padding-top: 0 !important;
+    padding-left: 20px;
+    padding-right: 20px;
 	}
 	h1.logo.me-auto {
     width: 100px;
@@ -2205,10 +2207,14 @@ section {
 	.tdhide {
 	display: none;
     }
+	.col-lg-4.col-md-6.d-flex.align-items-stretch.aos-init.aos-animate {
+    justify-content: center;
+    }
      
 }
 h1.logo.me-auto {
     font-size: 1.2rem !important;
+	content-visibility: hidden;
 }
 .mt-4 {
     margin-top: 1.5rem!important;
@@ -2248,8 +2254,4 @@ h1.logo.me-auto {
 .span {
 	font-weight: bold;
     color: #607d8b;
-}
-
-.col-lg-4.col-md-6.d-flex.align-items-stretch.aos-init.aos-animate {
-    justify-content: center;
 }
